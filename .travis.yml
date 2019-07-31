@@ -1,0 +1,9 @@
+language: elixir
+elixir: 1.9
+otp_release: 22.0
+sudo: false
+script:
+  - ./scripts/lint.sh
+  - ./scripts/test.sh
+after_script:
+  - ./scripts/release.sh
