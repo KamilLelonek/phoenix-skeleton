@@ -1,5 +1,7 @@
 # my_app
 
+[![Build Status](https://travis-ci.org/KamilLelonek/phoenix-skeleton.svg?branch=master)](https://travis-ci.org/KamilLelonek/phoenix-skeleton)
+
 ## Installation
 
 To start your Phoenix server:

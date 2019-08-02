@@ -20,6 +20,7 @@ config :phoenix,
   json_library: Jason
 
 config :my_app, MyApp.Domain.Repo,
+  migration_primary_key: [type: :binary_id],
   username: "postgres",
   password: "postgres",
   hostname: "localhost"

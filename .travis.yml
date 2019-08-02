@@ -2,6 +2,10 @@ language: elixir
 elixir: 1.9
 otp_release: 22.0
 sudo: false
+services:
+  - postgresql
+addons:
+  postgresql: "10"
 script:
   - ./scripts/lint.sh
   - ./scripts/test.sh
