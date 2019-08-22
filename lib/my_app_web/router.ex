@@ -8,7 +8,7 @@ defmodule MyAppWeb.Router do
     plug :accepts, ["json"]
   end
 
-  get("/", EndpointsController, :index, as: :endpoints)
+  get "/", EndpointsController, :index, as: :endpoints
 
   scope "/", MyAppWeb do
     pipe_through :api
